@@ -10,10 +10,10 @@
     "dev": "nodemon app.js"
   },
   "dependencies": {
+    "dotenv": "^16.1.4",
     "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
   }
 }
-
