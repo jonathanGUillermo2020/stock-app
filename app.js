@@ -4,6 +4,8 @@ const path = require('path')
 require('dotenv').config()
 
 const app = express()
+ 
+console.log(process.env.JONATHAN)
 
 mongoose.connect(`mongodb+srv://jonathanguillermomedinaordaz2124:${process.env.MONGO_DB_PASS}@development.7wvyqcv.mongodb.net/?retryWrites=true&w=majority`)
 
